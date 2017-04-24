@@ -1,5 +1,5 @@
-#Basscss Starter Project
-A boilerplate for web design project using awesome low-level CSS toolkit [Basscss](http://www.basscss.com). It has purpose for automated own personal workflow.
+#Tealbook Prototype
+A prototype using low-level CSS toolkit [Tachyons](http://tachyons.io/).
 
 #Docs
 Make sure that your development environment has Node.js installed.

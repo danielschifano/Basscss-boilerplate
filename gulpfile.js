@@ -18,8 +18,8 @@ var config = {
 };
 
 gulp.task('copy', function() {
-  var basscss = gulp.src(config.npmDir + 'basscss-sass/scss/**/*.scss')
-  .pipe(gulp.dest(config.sassPath + 'vendor/basscss-sass/'));
+  var tachyons = gulp.src(config.npmDir + 'tachyons/src/**/*.css')
+  .pipe(gulp.dest(config.sassPath + 'vendor/tachyons/'));
 
   var jquery = gulp.src(config.npmDir + 'jquery/dist/jquery.min.js')
   .pipe(gulp.dest(config.publicPath + 'scripts/'));
@@ -28,7 +28,7 @@ gulp.task('copy', function() {
   .pipe(gulp.dest(config.jsPath + 'vendor/'));
 
   return merge(
-    basscss,
+    tachyons,
     jquery,
     matchHeight
   );

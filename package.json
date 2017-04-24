@@ -1,7 +1,6 @@
 {
-  "name": "basscss-starter-project",
-  "description": "A boilerplate for web design project using Basscss",
-  "license": "MIT",
+  "name": "tealbook-prototype",
+  "description": "A prototype for Tealbook",
   "devDependencies": {
     "browser-sync": "^2.11.2",
     "del": "^2.2.0",
@@ -13,10 +12,10 @@
     "gulp-sass": "^2.2.0",
     "gulp-uglify": "^1.5.3",
     "gulp-util": "^3.0.7",
-    "merge-stream": "^1.0.0"
+    "merge-stream": "^1.0.0",
+    "tachyons": "^4.7.1"
   },
   "dependencies": {
-    "basscss-sass": "^4.0.0",
     "jquery": "^1.12.3",
     "jquery-match-height": "^0.7.0",
     "sweetalert2": "^0.4.5"
